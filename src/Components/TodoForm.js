@@ -1,9 +1,7 @@
 import { useState } from "react"
 
 const TodoForm = ({ 
-handleSubmit, 
-setTodoInput:
-setTodoInputProp
+handleSubmit,
 }) => {
 
   const [dateInput, setDateInput] = useState("");

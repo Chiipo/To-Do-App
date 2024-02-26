@@ -1,8 +1,8 @@
-const TodoItem = ({ date, todo }) => {
+const TodoItem = ({ date, todoitem }) => {
   return (
      <div>
       <h2>{date}</h2>
-      <p>{todo}</p>
+      <p>{todoitem}</p>
       <button>delete</button>
      </div> 
   )
