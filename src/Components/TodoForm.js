@@ -6,13 +6,13 @@ setTodoInput:
 setTodoInputProp
 }) => {
 
-const [dateInput, setDateInput] = useState("");
-const [todoInput, setTodoInput] = useState("");
+  const [dateInput, setDateInput] = useState("");
+  const [todoInput, setTodoInput] = useState("");
 
 return (
   <form onSubmit={handleSubmit}>
     <label>
-      Enter your date:
+        Enter the date & day:
       <input 
         type="text"
         value={dateInput}
@@ -28,9 +28,9 @@ return (
         onChange={(event) => setTodoInput(event.target.value)}
       />
     </label>
-    <input type="submit" />
+        <input type="submit" />
   </form>
-)
+    )
 }
 
 export default TodoForm
